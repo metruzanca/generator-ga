@@ -1,0 +1,32 @@
+{
+  "name": "generator-ga",
+  "version": "0.1.0",
+  "description": "General Assembly Generator",
+  "homepage": "https://github.com/metrauzanca/generator-ga",
+  "author": {
+    "name": "Sam Zanca",
+    "email": "sam@zanca.dev"
+  },
+  "files": ["generators"],
+  "main": "generators/index.js",
+  "keywords": ["yeoman-generator"],
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^1.7.0"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "yeoman-generator": "^3.1.1",
+    "yosay": "^2.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "repository": "git@github.com:metruzanca/generator-ga.git",
+  "license": "GPL-3.0"
+}
